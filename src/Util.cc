@@ -248,6 +248,7 @@ std::pair<VecStrs, VecStrs> get_image_files(std::string path, bool recurse)
  *
  * https://github.com/l3ib/nitrogen/issues/165
  *
+ * WEBP file support
  */
 
 bool is_image(std::string file) {
@@ -260,9 +261,11 @@ bool is_image(std::string file) {
 		file.find(".gif")  != std::string::npos ||
 		file.find(".GIF")  != std::string::npos ||
 		file.find(".svg")  != std::string::npos ||
-        	file.find(".SVG")  != std::string::npos ||
+        	file.find(".SVG")  != std::string::npos ||		
 		file.find(".avif") != std::string::npos ||
-        	file.find(".AVIF")  != std::string::npos)
+        	file.find(".AVIF") != std::string::npos ||
+		file.find(".webp") != std::string::npos ||
+        	file.find(".WEBP") != std::string::npos)
 		return true;
 
 	return false;
