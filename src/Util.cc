@@ -242,7 +242,14 @@ std::pair<VecStrs, VecStrs> get_image_files(std::string path, bool recurse)
  *
  * @param	file	The filename to test
  * @return			If its an image or not
+ *
+ *
+ * Contribution to avif file: Henrique Marques <https://github.com/henrique-marques-vsoft>
+ *
+ * https://github.com/l3ib/nitrogen/issues/165
+ *
  */
+
 bool is_image(std::string file) {
 	if (file.find(".png")  != std::string::npos ||
 		file.find(".PNG")  != std::string::npos ||
@@ -253,7 +260,9 @@ bool is_image(std::string file) {
 		file.find(".gif")  != std::string::npos ||
 		file.find(".GIF")  != std::string::npos ||
 		file.find(".svg")  != std::string::npos ||
-        	file.find(".SVG")  != std::string::npos)
+        	file.find(".SVG")  != std::string::npos ||
+		file.find(".avif") != std::string::npos ||
+        	file.find(".AVIF")  != std::string::npos)
 		return true;
 
 	return false;
