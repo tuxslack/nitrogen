@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR l3ib.org
+# This file is distributed under the same license as the nitrogen
+#
+# Este arquivo é distribuído sob a mesma licença do pacote de nitrogen.
+#
+# Fernando Souza <https://www.youtube.com/@fernandosuporte>, 2024.
+#
+# Usado o Google tradutor para traduzir o texto. - https://translate.google.com.br/
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nitrogen 1.6.1_4\n"
+"Report-Msgid-Bugs-To: daf@minuslab.net\n"
+"POT-Creation-Date: 06-04-2024 22:46:20\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fernando Souza <https://github.com/tuxslack>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+#: src/ArgParser.cc:75
+msgid "Unexpected argument "
+msgstr "Argumento inesperado "
+
+#: src/ArgParser.cc:84
+msgid " expects an argument."
+msgstr " espera uma discussão."
+
+#: src/ArgParser.cc:87
+msgid " does not expect an argument."
+msgstr " não espera uma discussão."
+
+#: src/ArgParser.cc:93
+msgid " conflicts with another argument."
+msgstr " entra em conflito com outro argumento."
+
+#: src/ArgParser.cc:105
+msgid "Usage:"
+msgstr "Uso:"
+
+#: src/Config.cc:128 src/Config.cc:217
+msgid "ERROR: Unable to load config file"
+msgstr "ERRO: Não foi possível carregar o arquivo de configuração"
+
+#: src/Config.cc:139
+msgid "Couldn't find group for"
+msgstr "Não foi possível encontrar o grupo para"
+
+#: src/Config.cc:151
+msgid "Could not get filename from config file."
+msgstr "Não foi possível obter o nome do arquivo do arquivo de configuração."
+
+#: src/Config.cc:160
+msgid "Could not get mode from config file."
+msgstr "Não foi possível obter o modo do arquivo de configuração."
+
+#: src/Config.cc:219
+msgid "The error code returned was"
+msgstr "O código de erro retornado foi"
+
+#: src/Config.cc:220
+msgid "We expected"
+msgstr "Nós esperamos"
+
+#: src/Config.cc:220
+msgid "or"
+msgstr "ou"
+
+#: src/NWindow.cc:253
+msgid "You previewed an image without applying it, apply?"
+msgstr "Você visualizou uma imagem sem aplicá-la, aplicar?"
+
+#: src/NWindow.cc:329
+msgid "Automatic"
+msgstr "Automático"
+
+#: src/NWindow.cc:336
+msgid "Scaled"
+msgstr "Escalado"
+
+#: src/NWindow.cc:344
+msgid "Centered"
+msgstr "Centralizado"
+
+#: src/NWindow.cc:352
+msgid "Tiled"
+msgstr "Ladrilhado"
+
+#: src/NWindow.cc:361
+msgid "Zoomed"
+msgstr "Ampliado"
+
+#: src/NWindow.cc:362
+msgid "Zoomed Fill"
+msgstr "Preenchimento ampliado"
+
+#: src/SetBG.cc:520 src/SetBG.cc:548
+msgid "Scale"
+msgstr "Escala"
+
+#: src/SetBG.cc:523 src/SetBG.cc:550
+msgid "Center"
+msgstr "Centro"
+
+#: src/SetBG.cc:526 src/SetBG.cc:552
+msgid "Tile"
+msgstr "Telha"
+
+#: src/SetBG.cc:529 src/SetBG.cc:554
+msgid "Zoom"
+msgstr "Ampliação"
+
+#: src/SetBG.cc:532 src/SetBG.cc:556
+msgid "ZoomFill"
+msgstr "Preenchimento_de_zoom"
+
+#: src/SetBG.cc:535 src/SetBG.cc:558
+msgid "Auto"
+msgstr "Auto"
+
+#: src/SetBG.cc:626
+msgid "Could not get bg groups from config file."
+msgstr "Não foi possível obter grupos BG do arquivo de configuração."
+
+#: src/SetBG.cc:650 src/SetBG.cc:657
+msgid "ERROR"
+msgstr "ERRO"
+
+#: src/SetBG.cc:669 src/SetBG.cc:1044
+msgid "Could not open display"
+msgstr "Não foi possível abrir a tela"
+
+#: src/SetBG.cc:730
+msgid "ERROR: Could not load file in bg set"
+msgstr "ERRO: Não foi possível carregar o arquivo no conjunto BG"
+
+#: src/SetBG.cc:808
+msgid "Unknown mode for saved bg"
+msgstr "Modo desconhecido para BG salvo"
+
+#: src/SetBG.cc:922
+msgid "ERROR: BG set could not make atoms."
+msgstr "ERRO: O conjunto BG não conseguiu produzir átomos."
+
+#: src/SetBG.cc:1023 src/SetBG.cc:1123 src/SetBG.cc:1533
+msgid "Screen"
+msgstr "Tela"
+
+#: src/SetBG.cc:1118 src/SetBG.cc:1526
+msgid "Full Screen"
+msgstr "Tela cheia"
+
+#: src/SetBG.cc:1183
+msgid "Could not find Xinerama screen number"
+msgstr "Não foi possível encontrar o número da tela do Xinerama"
+
+#: src/Util.cc:95
+msgid "Restore saved backgrounds"
+msgstr "Restaurar fundos salvos"
+
+#: src/Util.cc:96
+msgid "Do not recurse into subdirectories"
+msgstr "Não recorra a subdiretórios"
+
+
+#: src/Util.cc:97
+msgid ""
+"How to sort the backgrounds. Valid options are:\n"
+"\t\t\t* alpha, for alphanumeric sort\n"
+"\t\t\t* ralpha, for reverse alphanumeric sort\n"
+"\t\t\t* time, for last modified time sort (oldest first)\n"
+"\t\t\t* rtime, for reverse last modified time sort (newest first)"
+
+msgstr ""
+"Como classificar os planos de fundo. As opções válidas são:\n"
+"\t\t\t* alfa, para classificação alfanumérica\n"
+"\t\t\t* ralpha, para classificação alfanumérica reversa\n"
+"\t\t\t* time, para classificação de hora da última modificação (o mais antigo primeiro)\n"
+"\t\t\t* rtime, para classificação reversa da hora da última modificação (mais recente primeiro)"
+
+
+#: src/Util.cc:98
+msgid "background color in hex, #000000 by default"
+msgstr "cor de fundo em hexadecimal, #000000 por padrão"
+
+#: src/Util.cc:99
+msgid "Select xinerama/multihead display in GUI, 0..n, -1 for full"
+msgstr "Selecione exibição xinerama/multihead na GUI, 0..n, -1 para completo"
+
+#: src/Util.cc:100
+msgid "Force setter engine: xwindows, xinerama, gnome, pcmanfm"
+msgstr "Mecanismo de configuração de força: xwindows, xinerama, gnome, pcmanfm"
+
+#: src/Util.cc:101
+msgid "Choose random background from config or given directory"
+msgstr "Escolha um plano de fundo aleatório da configuração ou de um determinado diretório"
+
+#: src/Util.cc:106 src/Util.cc:107 src/Util.cc:108 src/Util.cc:109
+#: src/Util.cc:110 src/Util.cc:111
+msgid "Sets the background to the given file"
+msgstr "Define o plano de fundo para o arquivo fornecido"
+
+#: src/Util.cc:106
+msgid "scaled"
+msgstr "dimensionada"
+
+#: src/Util.cc:107
+msgid "tiled"
+msgstr "lado_a_lado"
+
+#: src/Util.cc:108
+msgid "auto"
+msgstr "auto"
+
+#: src/Util.cc:109
+msgid "centered"
+msgstr "centrada"
+
+#: src/Util.cc:110
+msgid "zoom"
+msgstr "ampliação"
+
+#: src/Util.cc:111
+msgid "zoom-fill"
+msgstr "preenchimento_de_zoom"
+
+#: src/Util.cc:112
+msgid "Saves the background permanently"
+msgstr "Salva o plano de fundo permanentemente"
+
+#: src/Util.cc:208
+msgid "Could not open dir"
+msgstr "Não foi possível abrir o diretório"
+
+#: src/Util.cc:293
+msgid "Currently set background"
+msgstr "Plano de fundo atualmente definido"
+
+#: src/Util.cc:296
+msgid "for"
+msgstr "para"
+
+#: src/main.cc:133
+msgid "Error parsing command line"
+msgstr "Erro ao analisar a linha de comando"
+
+#: src/NPrefsWindow.cc:27
+msgid "Preferences"
+msgstr "Preferências"
+
+#: src/NPrefsWindow.cc:28
+msgid "View Options"
+msgstr "Ver opções"
+
+#: src/NPrefsWindow.cc:29
+msgid "Directories"
+msgstr "Diretórios"
+
+#: src/NPrefsWindow.cc:30
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: src/NPrefsWindow.cc:31
+msgid "_Icon"
+msgstr "_Ícone"
+
+#: src/NPrefsWindow.cc:32
+msgid "_Icon with captions"
+msgstr "_Ícone com legendas"
+
+#: src/NPrefsWindow.cc:33
+msgid "_List"
+msgstr "_Lista"
+
+#: src/NPrefsWindow.cc:34
+msgid "_Time (descending)"
+msgstr "_Tempo (descendente)"
+
+#: src/NPrefsWindow.cc:35
+msgid "_Time (ascending)"
+msgstr "_Tempo (ascendente)"
+
+#: src/NPrefsWindow.cc:36
+msgid "_Name (ascending)"
+msgstr "_Nome (crescente)"
+
+#: src/NPrefsWindow.cc:37
+msgid "_Name (descending)"
+msgstr "_Nome (descendente)"
+
+#: src/NPrefsWindow.cc:38
+msgid "Recurse"
+msgstr "Recurso"
+
+#: src/NPrefsWindow.cc:202
+msgid "Are you sure you want to delete <b>%1</b>?"
+msgstr "Tem certeza de que deseja excluir <b>%1</b>?"
