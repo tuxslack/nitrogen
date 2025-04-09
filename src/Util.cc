@@ -273,7 +273,7 @@ bool is_image(std::string file) {
 		file.find(".avif") != std::string::npos ||
         	file.find(".AVIF") != std::string::npos ||
 		file.find(".webp") != std::string::npos ||
-        	file.find(".WEBP") != std::string::npos)||
+        	file.find(".WEBP") != std::string::npos ||
 	        file.find(".heic") != std::string::npos ||
         	file.find(".HEIC") != std::string::npos)
 		return true;
