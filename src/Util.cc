@@ -249,6 +249,14 @@ std::pair<VecStrs, VecStrs> get_image_files(std::string path, bool recurse)
  * https://github.com/l3ib/nitrogen/issues/165
  *
  * WEBP file support
+ *
+ *
+ * Support for .heic file
+ *
+ * Repository with .heic file
+ *
+ * https://github.com/biglinux/extra-biglinux-wallpapers
+ *
  */
 
 bool is_image(std::string file) {
